@@ -1,18 +1,7 @@
-import random
+nums = [0,0,1,1,1,2,2,3,3,4]
+for i in range(len(nums)):
+    if i == 0:
+        continue
+    elif nums.count(nums[i]) >
 
-CHARACTERS = ("Frodo", "Sam", "Merry", "Pippin", "Aragorn",
-              "Legolas", "Gimli", "Boromir", "Gandalf",
-              "Saruman", "Sauron")
-
-def random_character():
-    return random.choice(CHARACTERS)
-
-def ring_bearer(character):
-    return character in ("Frodo", "Sam")
-
-if __name__ == "__main__":
-    character = random_character()
-    if ring_bearer(character):
-        print(f"{character} is a ring bearer")
-    else:
-        print(f"{character} is not a ring bearer")
+print(nums)
