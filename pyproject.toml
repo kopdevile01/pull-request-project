@@ -12,8 +12,8 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "project_poetry", from = "src"}]
-
+packages = [{ include = "pull_request_project", from = "src" }
+]
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
