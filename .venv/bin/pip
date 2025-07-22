@@ -1,4 +1,4 @@
-#!/home/m/PycharmProjects/PythonProject/project-poetry/.venv/bin/python3.12
+#!/home/m/PycharmProjects/project-poetry/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
